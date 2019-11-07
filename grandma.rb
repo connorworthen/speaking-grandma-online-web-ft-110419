@@ -3,10 +3,10 @@ grandma = "speak_to_grandma"
     puts "I LOVE YOU TOO PUMPKIN!"
 end
 
-    'responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA!' do
-    expect(speak_to_grandma('I LOVE YOU GRANDMA!')).to eq 'I LOVE YOU TOO PUMPKIN!'
-  end
-
+  grandma = "speak_to_grandma"
+    if == "Hi grandma, how are you"
+      puts "HUH?! SPEAK UP, SONNY"
+    elsif == ""
   it 'responds with HUH?! SPEAK UP, SONNY! unless you are shouting' do
     expect(speak_to_grandma('Hi Nana, how are you?')).to eq 'HUH?! SPEAK UP, SONNY!'
   end
