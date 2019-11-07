@@ -1,5 +1,5 @@
-def = "speak_to_grandma"
-  if = "I love you grandma"
+grandma = "speak_to_grandma"
+  if grandma = "I love you grandma"
     puts "I LOVE YOU TOO PUMPKIN!"
 end
 
